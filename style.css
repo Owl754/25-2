@@ -1,0 +1,61 @@
+footer{
+border-radius: 8px;
+border-width: 5px;
+border-style: solid;
+border-color: rgba(87, 81, 81, 0.555);
+background-color: rgba(167, 243, 208, 0.5);
+}
+
+header{
+  border-radius: 8px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 73, 182, 0.726);
+  background-color: rgba(125, 243, 194, 0.432);
+  }
+
+img{
+  margin-left: 100px;
+}
+
+address{
+  border-radius: 8px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 162, 255, 0.596);
+  background-color: rgba(226, 252, 167, 0.534);
+  }
+
+  html {
+    background-image: url(hoooba.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

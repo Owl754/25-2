@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+  <title>Фон</title>
+  <style>
+   body {
+    background: #b9b9b9 url(sea.jpg); /* Цвет фона и путь к файлу */
+    color: rgb(0, 0, 0); /* Цвет текста */
+
+    font-family: sans-serif;
+   }
+
+   .container{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+    width: 100%;
+
+   }
+
+   .container__inner{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+
+     background-color: rgba(10, 135, 207, 0.5);
+     width: 500px;
+   }
+
+   #number{
+    font-size: 20px;
+    
+   }
+
+   .throw-button{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     
+
+    background-color: rgb(0, 124, 155);
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+
+    cursor: pointer;
+   }
+
+   .throw-button:hover{
+    background-color: rgb(4, 198, 247);
+    }
+
+
+    .button__back{
+      position: absolute;
+
+      display: flex;
+     align-items: center;
+     justify-content: center;
+     
+
+    background-color: rgb(54, 0, 155);
+    height: 100px;
+    width: 150px;
+    border-radius: 30px;
+
+    border: 3px solid lightblue;
+
+    color: lightsteelblue;
+
+    cursor: pointer;
+
+    }
+
+    
+    .button__back:hover{
+      background-color: rgb(4, 198, 247);
+      color: indigo;
+    }
+  </style>
+</head>
+<body>
+  <a href="../imdex.html">
+    <div class="button__back">
+      Вернуться <br> на главную
+    </div>
+  </a>
+  
+
+  <div class="container">
+    <div class="container__inner">
+      <h1>КУБИКИ</h1>
+    <p>(для броска нажмите на кнопку ниже)</p>
+    <img id="dice" src="1.jpg" alt="кубик">
+    <div onclick="rollDice()" class="throw-button">Бросить <br> кубик</div>
+
+    <p id="number">0</p>
+
+    <p>Общая сумма : <span id="total">0</span></p>
+
+    </div>
+    
+  </div>
+    
+    <script src="javascript.js"></script>
+
+
+</body>
+</html>
